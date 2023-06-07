@@ -1,0 +1,23 @@
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="<%= posts_path %>">
+      Home
+    </a>
+  </div>
+</nav>
+
+<section class="section">
+  <h1 class="title">Edit Doucment</h1>
+
+  <div class="container">
+    <%= simple_form_for @post do |f| %>
+      <div class="field">
+        <%= f.input :title, input_html: { class: 'input' }, wrapper: false, label_html: { class: 'label' } %>
+      </div>
+      <div class="field">
+        <%= f.input :content, input_html: { class: 'textarea' }, wrapper: false, label_html: { class: 'label' } %>
+      </div>
+      <%= f.button :submit, 'Confirm Edit', class: "create-new" %>
+    <% end %>
+  </div>
+</section>

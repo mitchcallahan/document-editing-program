@@ -1,0 +1,29 @@
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="<%= posts_path %>">
+      Home
+    </a>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container">
+    <div class="card">
+      <div class="card-content">
+        <div class="level">
+          <div class="level-left">
+            <h1 class="title"><%= @post.title %></h1>
+          </div>
+        </div>
+        <h2 class="title-show"><%= @post.title %></h2>
+        <div class="content">
+          <%= @post.content %>
+        </div>
+      </div>
+    </div>
+    <div class="actions">
+        <%= link_to "Edit", edit_post_path(@post), class: "button is-primary" %>
+        <%= button_to "Delete", post_path(@post), method: :delete, form: { data: { turbo_confirm: 'Are you sure?' } }, class: "button is-danger" %>
+    </div>
+  </div>
+</section>

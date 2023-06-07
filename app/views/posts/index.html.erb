@@ -1,1 +1,27 @@
-<h1 class="title">Index<h1>
+<nav class="navbar">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="<%= posts_path %>">Home</a>
+    <a class="navbar-item" href="<%= new_post_path %>">Create Post</a>
+  </div>
+</nav>
+
+<h1 class="title">Your Documents</h1>
+
+<section class="section">
+  <div class="container">
+    <% @posts.each do |post| %>
+      <div class="card">
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="card-title"><%= link_to post.title, post %></p>
+            </div>
+          </div>
+          <div class="content">
+            <p class="peek"><%= post.content %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</section>

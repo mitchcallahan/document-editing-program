@@ -1,3 +1,161 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px; 
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.navbar-item:hover {
+  color: rgb(83, 191, 189);
+}
+
+/* Section Styles */
+
+.section {
+  padding: 20px;
+}
+
 .title {
-    color: red;
+  text-align: center;
+  color: rgb(6, 79, 78);
+  font-size: 36px;
+  margin: 50px auto 0px auto;
+}
+
+/* Card Styles */
+
+.card {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 20px 0;
+  height: fit-content;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title a {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(65, 153, 152);
+  transition: font-size 0.4s ease; /* Add a transition for the font size */
+}
+
+.card-title a:hover {
+  font-size: 36px; /* Increase the font size on hover */
+  color: rgb(50, 116, 115);
+}
+
+
+.content {
+  margin-top: 10px;
+}
+
+.peek {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Button Styles */
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button.is-primary {
+  background-color: rgb(48, 125, 212);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  float: left;
+  width: 42%;
+  text-align: center;
+}
+
+.button.is-danger {
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  width: 49%;
+  float: right;
+}
+
+.button.is-danger, .button.is-primary {
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.action {
+  width: fit-content;
+  margin-top: 30px;
+}
+
+/* Form Styling */
+.field {
+  margin-bottom: 20px; 
+}
+
+.input {
+  width: 100%; 
+}
+
+.textarea {
+  width: 100%; 
+  height: 350px; 
+  resize: vertical; 
+}
+
+.create-new {
+  background-color: rgb(48, 125, 212);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+  text-decoration: none;
+  border-radius: 5px;
+  float: left;
+  width: 100%;
+
 }
