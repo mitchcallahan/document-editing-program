@@ -1,24 +1,11 @@
-# README
+# document-editing-program
+a Simple Ruby on Rails Document Editing program, more focussed on functionality to learn Ruby rather than front end.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Running Program
+- First open a terminal
+- Second, cd to where you saved the downloaded project using command $ cd /path/to/app
+- Third, once your in that current directory, run $ bundle install
+- If this installed all the required gems for this project successfully, run the server using command $ rails s
+- Finally go to this link once the server is running, http://localhost:3000/posts
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+(Note: do not include the '$' symbol in any command it is there for reference)
