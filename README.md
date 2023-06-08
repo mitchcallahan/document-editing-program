@@ -1,5 +1,5 @@
 # document-editing-program
-a Simple Ruby on Rails Document Editing program, more focussed on functionality to learn Ruby rather than front end.
+a Simple Ruby on Rails Document Editing program, more focussed on functionality to learn and understand beginner Ruby on Rails rather than the front end design.
 
 ## Dev
 - using Rails version 7.0.5
