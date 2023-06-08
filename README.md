@@ -6,7 +6,8 @@ a Simple Ruby on Rails Document Editing program, more focussed on functionality 
 
 ## Program Layout
 - Controllers for operations -> delete, edit, create, view are in all under directory app/controllers/posts_controller.rb
-- html.erb files are under
+- html.erb files are under directory app/views/posts/
+- posts.scss used for styling is under directory assets/stylesheets/posts.scss
 
 
 ## Running Program
