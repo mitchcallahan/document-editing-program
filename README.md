@@ -1,5 +1,6 @@
 # document-editing-program
 a Simple Ruby on Rails Document Editing program, more focussed on functionality to learn and understand beginner Ruby on Rails rather than the front end design.
+- when first downloading the program, all posts in the db are reset so you will first have to create a post or multiple before trying to view a list of them all, delete and edit.
 
 ## Dev
 - using Rails version 7.0.5
